@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UI</string>
+    <string name="gateway">网关</string>
+    <string name="lock">门锁</string>
+    <string name="version">网关版本</string>
+    <string name="gateway_pare">网关参数</string>
+    <string name="hbdat">心跳号</string>
+    <string name="hbtime">心跳间隔</string>
+    <string name="serip">心跳服务器地址</string>
+    <string name="serport">心跳端口</string>
+    <string name="wlnum">网关区号</string>
+    <string name="si4438pa">433功率</string>
+</resources>
