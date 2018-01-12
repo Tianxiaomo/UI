@@ -4,14 +4,10 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-
 import java.util.LinkedList;
-import java.util.List;
 
 /*
 public class ListContextAdapter extends ArrayAdapter<ListContext> {
@@ -55,6 +51,7 @@ public class ListContextAdapter extends ArrayAdapter<ListContext> {
 public class ListContextAdapter extends BaseAdapter {
 
     private Context mContext;
+    private int mSelect = -1;
     private LinkedList<ListContext> mData;
 
     public ListContextAdapter() {
@@ -92,10 +89,24 @@ public class ListContextAdapter extends BaseAdapter {
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
+        if(position == mSelect){
+            holder.paraValue.setTextColor(mContext.getResources().getColor(R.color.colorqingke));
+        }else {
+            holder.paraValue.setTextColor(mContext.getResources().getColor(R.color.colorblack));
+        }
         holder.paraName.setText(mData.get(position).getName());
         holder.paraValue.setText(mData.get(position).getValue());
         return convertView;
     }
+
+    //刷新方法
+    public void changeSelected(int position){
+        if(position != mSelect){
+            mSelect = position;
+            notifyDataSetChanged();
+        }
+    }
+
 
     //添加一个元素
     public void add(ListContext data) {

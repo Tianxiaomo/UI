@@ -61,7 +61,6 @@ public abstract class BaseClient {
     protected void removeWriteMessage(Message msg){
         mWriteMessageQueen.remove(msg);
     }
-
     //--------------------------------------------------------------------------------------
     public abstract void onCheckConnect();
 

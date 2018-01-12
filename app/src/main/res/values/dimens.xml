@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="font_big_more">20sp</dimen>
+    <dimen name="font_big">17sp</dimen>
+    <dimen name="font_middle">15sp</dimen>
+    <dimen name="font_small">13sp</dimen>
+    <dimen name="font_small_more">11sp</dimen>
+
+    <dimen name="chamfer">15dp</dimen>
+
+    <dimen name="chamfer_button">10dp</dimen>
+
+</resources>

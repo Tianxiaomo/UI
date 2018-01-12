@@ -8,4 +8,70 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="text_normal_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">60dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">@dimen/font_big_more</item>
+    </style>
+
+    <style name="text_para_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="text_button">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <!--<item name="android:background">@color/colorqingke</item>-->
+
+        <item name="android:background">@drawable/layout_border</item>
+
+        <item name="android:layout_gravity">center</item>
+
+        <item name="android:clickable">true</item>
+        <!--<item name="android:paddingTop">10dp</item>-->
+        <!--<item name="android:paddingBottom">10dp</item>-->
+    </style>
+
+    <style name="button_setget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--<item name="android:layout_marginTop">30dp</item>-->
+        <!--<item name="android:layout_marginBottom">30dp</item>-->
+        <!--<item name="android:background">@color/colorqingke</item>-->
+
+        <item name="android:background">@drawable/layout_button</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:clickable">true</item>
+        <!--<item name="android:paddingTop">10dp</item>-->
+        <!--<item name="android:paddingBottom">10dp</item>-->
+    </style>
+
+    <style name="text_button_setget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/colorblack</item>
+        <item name="android:textSize">@dimen/font_big_more</item>
+    </style>
+
 </resources>

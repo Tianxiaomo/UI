@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mycompany.ui.MainActivity">
+
+    <Button
+        style="@style/text_button"
+        android:layout_width="100dp"
+        android:text="@string/gateway"
+
+        />
+    <!--<LinearLayout-->
+        <!--style="@style/text_button"-->
+        <!--android:layout_weight="0.4"-->
+        <!--android:background="@color/colorlucency"-->
+        <!--&gt;-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/btnGateway"-->
+        <!--style="@style/text_button"-->
+        <!--android:layout_weight="1">-->
+
+        <!--<TextView-->
+            <!--style="@style/text_normal_style"-->
+            <!--android:text="@string/gateway"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvGateway"-->
+            <!--style="@style/text_para_style"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/btnLock"-->
+        <!--style="@style/text_button"-->
+        <!--android:layout_weight="1"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--style="@style/text_normal_style"-->
+            <!--android:text="@string/lock"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvLock"-->
+            <!--style="@style/text_para_style"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/btnAmmeter"-->
+        <!--style="@style/text_button"-->
+        <!--android:layout_weight="1"-->
+        <!--&gt;-->
+
+        <!--<TextView-->
+            <!--style="@style/text_normal_style"-->
+            <!--android:text="@string/ammeter"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvAmmeter"-->
+            <!--style="@style/text_para_style"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--style="@style/text_button"-->
+        <!--android:layout_weight="1.5"-->
+        <!--android:background="@color/colorlucency">-->
+
+    <!--</LinearLayout>-->
+</LinearLayout>
