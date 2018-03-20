@@ -14,7 +14,7 @@
     android:right="0.5dp"
     android:top="0dp" /> -->
 <!-- 圆角-->
-    <solid android:color="@color/colorqingke"/>
+    <solid android:color="@color/colorPrimary"/>
 <corners
     android:bottomLeftRadius="@dimen/chamfer"
     android:bottomRightRadius="@dimen/chamfer"

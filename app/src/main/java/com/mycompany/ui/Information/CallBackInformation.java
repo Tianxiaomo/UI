@@ -6,4 +6,5 @@ package com.mycompany.ui.Information;
 
 public interface CallBackInformation {
     void onSucces(String message);
+    void onFail();
 }

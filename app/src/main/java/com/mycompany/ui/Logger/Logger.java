@@ -16,8 +16,8 @@ public class Logger {
 
     private static String Tag = null;
 
-    public void setTag(String Tag){
-        this.Tag = Tag;
+    public static void setTag(String mtag){
+        Tag = mtag;
     }
 
     public static void e(String msg){
